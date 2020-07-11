@@ -1,14 +1,35 @@
+/*
+ #F76265 warning text
+ #9195B1 gray text
+ #5265E8 background color
+*/
 body {
     background-color:#5265E8;
     font-family: Nunito;
+    font-weight: bold;
+    font-size: 13px;
 }
+
 * {
     box-sizing: border-box;
 }
+
+img {
+    height: 24;
+    width: 24;
+}
+
 .warningbox {
+    padding-top: 13.5px;
     height: 124px;
     width: 282px;
     border-radius: 3px;
-    background-color: white;
+    background-color: #F1F2FD;
+    box-shadow: 0px 15px 15px 0px ;
+    text-align: center;
+    color: #06105825;
 }
 
+.warningtext {
+    width: 255;
+}
