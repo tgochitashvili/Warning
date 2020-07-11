@@ -1,0 +1,14 @@
+body {
+    background-color:#5265E8;
+    font-family: Nunito;
+}
+* {
+    box-sizing: border-box;
+}
+.warningbox {
+    height: 124px;
+    width: 282px;
+    border-radius: 3px;
+    background-color: white;
+}
+
