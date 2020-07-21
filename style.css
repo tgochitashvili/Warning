@@ -4,7 +4,7 @@
  #5265E8 background color
 */
 body {
-    background-color:#5265E8;
+    background-color:white;
     font-family: Nunito;
     font-weight: bold;
     font-size: 13px;
@@ -14,7 +14,7 @@ body {
     box-sizing: border-box;
 }
 
-img {
+.warningimg {
     height: 24;
     width: 24;
 }
@@ -23,13 +23,59 @@ img {
     padding-top: 13.5px;
     height: 124px;
     width: 282px;
-    border-radius: 3px;
-    background-color: #F1F2FD;
+    border-radius: 7px;
+    background-color: #f1f2fd;
     box-shadow: 0px 15px 15px 0px ;
     text-align: center;
     color: #06105825;
+    position: absolute;
+    display:none;
 }
 
-.warningtext {
-    width: 255;
+#callwindow {
+    position: relative;
+    height: 436px;
+    width: 390px;
+    background: #5265E8;
+    border-radius: 6px;
+}
+#minimize {
+    position: absolute;
+    height: 15px;
+    right: 10px;
+    top: 10px;
+}
+
+.callbutton {
+    position: absolute;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    bottom: 25px;
+}
+
+.decline {
+    background: red;
+    right: 35px;
+}
+
+.accept {
+    background: greenyellow;
+    left: 35px;
+}
+
+#acceptimage {
+    position: absolute;
+    height:20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+}
+
+#declineimage {
+    position: absolute;
+    height:20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%) rotate(135deg);
 }

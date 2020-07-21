@@ -5,13 +5,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="warningbox">
-        <img class="warningcontent" src="assets/error_outline.svg">
-        <div style="color: #F76265; padding-top: 6.5px" class="warningtext">
-            We are unable to initialize your session.
+    
+    <div id="callwindow">
+        <div class="warningbox">
+            <img class="warningimg" src="assets/error_outline.svg">
+            <div style="color: #F76265; padding-top: 6.5px">
+                We are unable to initialize your session.
+            </div>
+            <div style="color: #9195B1; padding-top: 4px">
+                This sometimes happens when microphone access has been disabled. 
+            </div>
         </div>
-        <div style="color: #9195B1; padding-top: 4px" class="warningtext">
-            This sometimes happens when microphone access has been disabled. 
+        <img id="minimize", src="assets/minimize-icon-16.jpg">
+        <div class="callbutton accept">
+            <img src="assets/clipart1101624.png" id = "acceptimage">
+        </div>
+        <div class="callbutton decline">
+            <img src="assets/clipart1101624.png" id = "declineimage">
         </div>
     </div>
 </body>
