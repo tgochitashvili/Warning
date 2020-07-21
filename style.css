@@ -38,6 +38,9 @@ body {
     width: 390px;
     background: #5265E8;
     border-radius: 6px;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    top: 50%;
 }
 #minimize {
     position: absolute;
@@ -52,6 +55,26 @@ body {
     height: 60px;
     width: 60px;
     bottom: 25px;
+}
+
+
+.callbutton:link {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .2s;
+    backface-visibility: hidden;
+}
+
+.callbutton:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.callbutton:active {
+    transform: translate(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .decline {
