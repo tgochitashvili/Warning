@@ -19,29 +19,24 @@ body {
     width: 24;
 }
 
-.warningbox {
-    padding-top: 13.5px;
-    height: 124px;
-    width: 282px;
-    border-radius: 7px;
-    background-color: #f1f2fd;
-    box-shadow: 0px 15px 15px 0px ;
-    text-align: center;
-    color: #06105825;
-    position: absolute;
-    display:none;
-}
+
 
 #callwindow {
     position: relative;
     height: 436px;
     width: 390px;
     background: #5265E8;
+    box-shadow: 0px 15px 15px 1px ;
+    color: #57596b25;
     border-radius: 6px;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%,50%);
     left: 50%;
     top: 50%;
 }
+.callwindowshade {
+    background-color: #5265E8;
+}
+
 #minimize {
     position: absolute;
     height: 15px;
@@ -55,6 +50,8 @@ body {
     height: 60px;
     width: 60px;
     bottom: 25px;
+    cursor: pointer;
+    border: none;
 }
 
 
@@ -69,12 +66,12 @@ body {
 
 .callbutton:hover {
     transform: translateY(-1px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .callbutton:active {
     transform: translate(-1px);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
 
 .decline {
@@ -85,6 +82,28 @@ body {
 .accept {
     background: greenyellow;
     left: 35px;
+}
+
+
+.inactivecallbutton{
+    background: rgba(172, 255, 47, 0.274)
+}
+
+.inactivecallbutton:hover .warningbox{
+    display: block;
+}
+
+.warningbox {
+    padding-top: 13.5px;
+    height: 124px;
+    width: 282px;
+    border-radius: 7px;
+    background-color: #f1f2fd;
+    box-shadow: 0px 15px 15px 0px ;
+    text-align: center;
+    color: #06105825;
+    position: absolute;
+    display: none;
 }
 
 #acceptimage {
