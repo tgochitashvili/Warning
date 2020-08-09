@@ -175,3 +175,103 @@ button.togglebtn:active{
     transform: translate(-50%,calc(-50% - 2px));
     box-shadow: 0 2px 3px #4140663f;
 }
+
+div.callerid {
+    color: white;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 3%;
+}
+
+img.avatar {
+    position: absolute;
+    height: 100px;
+    border-radius: 200px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+div.avatarcontainer {
+    position: absolute;
+    border-radius: 200px;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+}
+div.avatarhalo {    
+    position: absolute;
+    border-radius: 200px;
+    height: 150px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-duration: 2s;
+}
+
+div.halo1 {
+    animation-name: firstanim;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+div.halo2 {
+    animation-name: secondanim;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+div.halo3 {
+    animation-name: thirdanim;
+    background-color: rgba(255, 255, 255, 0.041);
+}
+
+@keyframes firstanim{
+    0%{
+        width: 150px;
+        height: 150px;
+    }
+    50%{
+        width: 160px;
+        height: 160px;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@keyframes secondanim{
+    0%{
+        width: 150px;
+        height: 150px;
+    }
+    50%{
+        width: 170px;
+        height: 170px;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@keyframes thirdanim{
+    0%{
+        width: 150px;
+        height: 150px;
+    }
+    50%{
+        width: 180px;
+        height: 180px;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
