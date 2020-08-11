@@ -24,11 +24,12 @@ $(document).ready(function(){
       });
     $(".togglebtn").click(function(){
         callwindow.fadeTo("fast",1.0);
-        console.log("HERE");
+        $(this).fadeOut("fast");
     });
     
     $("#minimize").click(function(){
         callwindow.fadeOut("fast");
+        $(".togglebtn").fadeTo("fast", 1.0);
     });
 });
 
