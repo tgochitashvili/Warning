@@ -76,7 +76,7 @@ button:focus {
     position: absolute;
     display: none;
     transform: translate(-50%, -50%);
-    left: 65px;
+    left: 130px;
     bottom: 35px;
 }
 
