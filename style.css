@@ -76,7 +76,7 @@ button:focus {
     position: absolute;
     display: none;
     transform: translate(-50%, -50%);
-    left: 130px;
+    left: 65px;
     bottom: 35px;
 }
 
@@ -318,5 +318,6 @@ div.halo3 {
     .warningbox{
         width: 400px;
         height: 150px;
+        left: 130px;
     }
 }
