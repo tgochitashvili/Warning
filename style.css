@@ -228,7 +228,7 @@ div.halo2 {
 
 div.halo3 {
     animation-name: thirdanim;
-    background-color: rgba(255, 255, 255, 0.041);
+    background-color: rgba(255, 255, 255, 0.13);
 }
 
 @keyframes firstanim{
@@ -320,4 +320,31 @@ div.halo3 {
         height: 150px;
         left: 130px;
     }
+}
+.OSiconbar{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 0px;
+    left: 50%;
+}
+.OSicon{
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+}
+.chromelogo{
+    color: #5265E8;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    display: block;
+}
+.chromecontainer{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 100px;   
+    height: 25px;
+    width: 25px;
 }

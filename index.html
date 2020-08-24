@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Warning</title>
+    <title>Call</title>
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script
@@ -9,6 +9,8 @@
         crossorigin="anonymous">
     </script>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <button class="togglebtn">
@@ -21,8 +23,15 @@
             </div>
             <div class="background blue">
                     
+                <div class="OSiconbar">
+                    <ion-icon name="logo-windows" class="OSicon"></ion-icon>
+                    <ion-icon name="desktop-outline" class="OSicon"></ion-icon>
+                    <span class="chromecontainer">
+                        <ion-icon name="logo-chrome" class="chromelogo"></ion-icon>                        
+                    </span>
+                    <ion-icon name="ellipsis-horizontal-circle-sharp" class="OSicon"></ion-icon>
+                </div>
             </div>
-            
         </div>
         <div class="callerid">
             Unknown visitor
@@ -63,5 +72,6 @@
         <button class="callbutton decline">
             <img src="assets/phone.png" id = "declineimage">
         </button>
+
     </div>
 </body>
